@@ -1,9 +1,9 @@
 body{
     background-color: #fffbf7;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 h1{
