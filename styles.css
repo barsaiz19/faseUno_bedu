@@ -1,5 +1,9 @@
 body{
     background-color: #fffbf7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
