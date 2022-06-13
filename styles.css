@@ -36,11 +36,13 @@ input{
     border: 1px solid #b6b6b6;
     padding:  6px 20px 6px 20px;
     max-width: 250px;
+    width: 60%;
 }
 
 button{
     background-color: #025157;
     color: #fff;
+    padding: 6px 20px 6px 20px;
     border: none;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -49,5 +51,11 @@ button{
 
 #imgCapterra{
     width: 16%;
+    min-width: 100px;
+}
+
+#imgGrafico{
+    width: 60%;
+    min-width: 400px;
 }
 
