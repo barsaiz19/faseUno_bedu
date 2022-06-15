@@ -3,20 +3,89 @@ body{
     /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center; 
+    text-align: center;*/
+}
+
+
+
+header{
+    margin: 40px 20px;
+    font-size: 0px;
+    font-family: sans-serif;
+    
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.logo{
+    width: 15%;
+}
+
+.logo > img{
+    width: 30%;
+}
+
+.navbar{
+    width: 70%;
+    text-align: left;
+    color: #025157;
+    font-weight: 600;
+}
+
+li{
+    margin: 0 25px;
+    color: #025157;
+}
+
+.actions{
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.actions > *{
+    margin: 10px 10px;
+}
+
+.iniSesion{
+    color: #67b54b;
+}
+
+.cta_01{
+    color: #fff;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+li{
+    display: inline;
+}
+
+.main{
+    margin-top: 140px;
     text-align: center;
 }
 
 h1{
     color: #025157;
-    text-align: center;
+    /* text-align: center; */
 }
 
 p{
     color: #8b8b8bcc;
     font-family: Verdana;
     font-size: 20px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 form{
@@ -58,4 +127,3 @@ button{
     width: 60%;
     min-width: 400px;
 }
-.
