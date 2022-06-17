@@ -10,7 +10,7 @@ body{
 
 
 header{
-    margin: 40px 20px;
+    margin: 5px 20px;
     font-size: 0px;
     font-family: sans-serif;
     
@@ -26,10 +26,13 @@ header{
 
 .logo{
     width: 15%;
+    
 }
 
 .logo > img{
     width: 30%;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar{
@@ -76,7 +79,7 @@ li{
 }
 
 .main{
-    margin-top: 140px;
+    margin-top: 285px;
     text-align: center;
 }
 
@@ -164,4 +167,13 @@ button{
 
 #ImgFlecha{
     width: 15%;
+}
+
+.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+    box-shadow: 0px 0px 5px #c4c1bf;
 }
