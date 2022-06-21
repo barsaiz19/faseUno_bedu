@@ -171,6 +171,7 @@ button{
 
 .fixed-header{
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
     right: 0;
@@ -217,7 +218,8 @@ button{
     margin: auto;
     width: 25%;
     padding: 0px;
-    align-items: ;
+    position: relative;
+    z-index: 0;
 }
 
 .card > * {
@@ -244,12 +246,15 @@ h5{
 .circuloMarcaCard{
     background-color: rgb(255, 238, 0);
     padding: 10px;
-    width: 35%;
+    width: 15%;
     border-radius: 100%;
     aspect-ratio: 1/1;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 60%;
+    right: 5%;
 }
 
 .logoMarcaCard{
