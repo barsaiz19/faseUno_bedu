@@ -177,3 +177,106 @@ button{
     background-color: #fffbf7;
     box-shadow: 0px 0px 5px #c4c1bf;
 }
+
+.brands{
+    background-color: #a1d683;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.contentBrands{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    width: 40%;
+    padding: 15% 0 15% 15%;
+}
+
+.contentBrands > *{
+    margin: 8px;
+}
+
+.captionBrands{
+    color:#00292c
+}
+
+.ctaBrands{
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.imgBrands{
+    width: 100%;
+}
+
+.card{
+    background-color: #fff;
+    margin: auto;
+    width: 25%;
+    padding: 0px;
+    align-items: ;
+}
+
+.card > * {
+    padding: 0px 20px;
+}
+
+h4, h5{
+    font-family: Verdana;
+}
+
+h4{
+    color: #025157;
+}
+
+h5{
+    color: #b6b6b6;
+}
+
+.imgCard{
+    width: 100%;
+    padding: 0;
+}
+
+.circuloMarcaCard{
+    background-color: rgb(255, 238, 0);
+    padding: 10px;
+    width: 35%;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoMarcaCard{
+    width: 100%;
+}
+
+.footCaptionCard{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.iconCarrito{
+   width: 10%;
+}
+
+.footCaptionCardText{
+    font-size: 12px;
+    padding: 5px;
+    color: #00292c;
+    width: 80%;
+}
+
+.ctaCard{
+    margin: auto;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 25px;
+}
