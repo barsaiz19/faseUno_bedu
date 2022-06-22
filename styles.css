@@ -307,14 +307,31 @@ h5{
     border-radius: 10px;
 }
 
-.featuresCard{
+/* .featuresCard{
     display: grid;
     padding: 20px;
     padding-right: 0;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: stretch;
+    align-items: center;
     column-gap: 10px;
     overflow: hidden;
+} */
+
+.featuresCard{
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-template-areas:
+        "icon img"
+        "title img"
+        "para img"
+        "cta img";
+    justify-content: stretch;
+    align-items: center;
+    overflow: hidden;    
 }
 
 .featuresCard > * {
@@ -350,10 +367,10 @@ h5{
 
 .imgFeaturesCard{
     justify-self: flex-end;
+    align-self: center;
     grid-row: 1/4;
     grid-column: 2/2;
     width: 80%;
     position: relative;
     right: -50px;
-    top: 50px;
 }
