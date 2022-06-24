@@ -374,3 +374,50 @@ h5{
     position: relative;
     right: -50px;
 }
+
+@media (max-width: 575px){
+    /* body{
+        background-color: yellow;
+    } */
+
+    .navbar,
+    .actions{
+        display: none;
+    }
+
+    .header{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .logo{
+        width: 25%;
+    }
+
+    .main{
+        margin-top: 4rem;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    .video{
+        width: 90%;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .video, .publish{
+        margin: 5% 5%;
+    }
+
+    #ImgFlecha{
+        display: none;
+    }
+
+    .video > h2{
+        
+    }
+
+}
