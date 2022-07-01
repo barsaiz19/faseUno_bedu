@@ -1,0 +1,20 @@
+// global.css
+//Colores
+$dark-green-title: #025157;
+$dark-green-text: #135359;
+$white: #ffffff;
+
+/**
+Este es un comentario por bloque
+Todo este bloque será comentado
+*/
+
+// Fuente
+
+$font-title: "Gloria Hallelujah";
+
+// Placeholders
+%base-title{
+    font-family: $font-title;
+    color: $dark-green-text;
+}
