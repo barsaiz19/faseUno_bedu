@@ -1,0 +1,22 @@
+{
+  "name": "santander-front-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barsaiz19/faseUno_bedu.git"
+  },
+  "author": "barsaiz19",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barsaiz19/faseUno_bedu/issues"
+  },
+  "homepage": "https://github.com/barsaiz19/faseUno_bedu#readme",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
