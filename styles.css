@@ -214,7 +214,7 @@ button{
     width: 100%;
 }
 
-.card{
+.cardU{
     background-color: #fff;
     margin: auto;
     width: 25%;
@@ -223,7 +223,7 @@ button{
     z-index: 0;
 }
 
-.card > * {
+.cardU > * {
     padding: 0px 20px;
 }
 

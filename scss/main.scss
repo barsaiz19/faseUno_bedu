@@ -56,4 +56,21 @@
         width: 180px;
         margin-bottom: 15px;
     }
+
+    h5{
+        color: $card-title;
+        font-family: $font-title;
+        text-transform: capitalize;
+    }
+
+    .metadata{
+        font-size: .8rem;
+        color: $card-description;
+    }
+
+    .card-text{
+        color: $card-body;
+    }
+
+
 }

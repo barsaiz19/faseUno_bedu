@@ -46,5 +46,17 @@ Todo este bloque será comentado
   width: 180px;
   margin-bottom: 15px;
 }
+.blog h5 {
+  color: #025157;
+  font-family: "Gloria Hallelujah";
+  text-transform: capitalize;
+}
+.blog .metadata {
+  font-size: 0.8rem;
+  color: #a1d683;
+}
+.blog .card-text {
+  color: #b6b6b6;
+}
 
 /*# sourceMappingURL=output.css.map */
