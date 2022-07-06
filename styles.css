@@ -135,6 +135,10 @@ button{
     margin-left: -10px;
 }
 
+.btn_anim:hover {
+    background-color: #67b54b;
+}
+
 #imgCapterra{
     width: 16%;
     min-width: 100px;
